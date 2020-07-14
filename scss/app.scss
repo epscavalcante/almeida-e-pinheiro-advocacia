@@ -1,0 +1,20 @@
+// Import Custom SB Admin 2 Variables (Overrides Default Bootstrap Variables)
+@import "variables.scss";
+
+//Main
+@import "main.scss";
+
+//Header
+@import "header.scss";
+
+//Home
+@import "home.scss";
+
+// OwlCarousel2
+@import "../node_modules/owl.carousel2/src/scss/owl.carousel.scss";
+
+// FontAwesome
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,35 @@
+#home {
+  position: relative;
+  .title {
+    position: absolute;
+    margin: auto;
+    z-index: 1000;
+    max-width: 600px;
+    top: 43%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    & p {
+      max-width: 550px;
+      font-size: 1.2em;
+    }
+    & img {
+      width: 600px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    img.logo {
+      max-width: 100%;
+      margin-bottom: 1.0em;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    img.logo {
+      max-width: 480px;
+      margin-top: 2em;
+      margin-bottom: 1.5em;
+    }
+  }
+}
