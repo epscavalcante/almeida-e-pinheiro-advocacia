@@ -56,14 +56,6 @@ function modules() {
     .src("./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js")
     .pipe(gulp.dest("./js/"));
 
-  var owlCarousel2JS = gulp
-    .src([
-      "./node_modules/owl.carousel2/dist/owl.carousel.min.js",
-    ])
-    .pipe(gulp.dest("./js/"));
-  
-  // var fontAwesomeFonts
-
   var jquery = gulp
     .src([
       "./node_modules/jquery/dist/jquery.slim.min.js",
@@ -78,7 +70,6 @@ function modules() {
 
   return merge(
     bootstrapJS,
-    owlCarousel2JS,
     jquery
   );
 }
